@@ -17,6 +17,9 @@ const BookList = () => {
     useEffect(() => {
         axios.get(`https://immense-river-40491.herokuapp.com/bookingList?email=${user.email}`)
         .then(res => setBookings(res.data))
+        .catch(error => {
+            console.error('Error:', error);
+        })
     },[user.email, isUpdated])
 
     const handleDelete = (id, status) => {

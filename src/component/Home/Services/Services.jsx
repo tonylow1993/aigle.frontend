@@ -9,6 +9,9 @@ const Services = () => {
     useEffect(() => {
         axios.get('https://immense-river-40491.herokuapp.com/services')
         .then(res => setServices(res.data))
+        .catch(error => {
+            console.error('Error:', error);
+        })
     }, [])
 
     return (

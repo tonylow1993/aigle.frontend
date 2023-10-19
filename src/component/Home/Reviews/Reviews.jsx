@@ -16,6 +16,9 @@ const Reviews = () => {
         .then(data => {
             setReviews(data);
         })
+        .catch(error => {
+            console.error('Error:', error);
+        })
     }, [])
     return (
         <section id="testimonial">

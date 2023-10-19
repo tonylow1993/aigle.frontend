@@ -12,6 +12,9 @@ const OrderList = () => {
     useEffect(() => {
         axios.get('https://immense-river-40491.herokuapp.com/orders')
         .then(res => setOrders(res.data))
+        .catch(error => {
+            console.error('Error:', error);
+        })
     },[isUpdated])
 
     const handleAction = (id, status) => {

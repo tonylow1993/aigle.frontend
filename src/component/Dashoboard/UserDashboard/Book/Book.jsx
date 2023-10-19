@@ -21,6 +21,9 @@ const Book = () => {
                 dispatch({type: SET_SELECTED_SERVICE, payload: res.data[0]})
             }
         })
+        .catch(error => {
+            console.error('Error:', error);
+        })
     }, [selectedService.name, dispatch])
 
     const handleSelection = e => {

@@ -22,6 +22,9 @@ const ManageServices = () => {
             setServices(res.data);
             setIsUpdated(false)
         })
+        .catch(error => {
+            console.error('Error:', error);
+        })
     }, [isUpdated, edit])
     
     const checkPermission = (id, action) => {
