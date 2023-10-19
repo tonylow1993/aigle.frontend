@@ -1,0 +1,15 @@
+.hero-bg {
+    background-image: url('../../../Assets/bg.jpg');
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin: 0!important;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.hero-text {
+    line-height: 1.5;
+    color: #5e5e5e;
+    font-weight: 300!important;
+    font-family: Maax Mono, Courier New, Courier, monospace!important;
+}

@@ -1,5 +1,5 @@
 .footer {
-    background: #7355F7;
+    background: #1aa684;
     background-image: url('../../../Assets/footerbg.png');
     width: 100%;
     font-family: 'Poppins', sans-serif;
@@ -98,7 +98,7 @@
     line-height: 2.5rem;
     background: #fff;
     margin-right: 5px;
-    color:#7355F7;
+    color:#1aa684;
     transition: 0.4s;
 }
 .fAboutUs li a:hover{

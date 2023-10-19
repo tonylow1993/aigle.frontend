@@ -1,7 +1,6 @@
 .header {
     background: white;
     height: 100vh;
-    background-image: url('../../../Assets/bg.png');
     background-repeat: no-repeat;
     background-position: right;
     width: 100%;
@@ -25,15 +24,15 @@
 }
 
 .headerContent {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
     color: #5e5e5e;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-family: Maax Mono, Courier New, Courier, monospace;
     margin: 0.5rem 0 1rem
 }
 .branBtn {
-    background: #7355F7;
+    background: #1aa684;
     padding: 18px 35px;
     display: inline-block;
     border-radius: 50px;
@@ -50,7 +49,7 @@
     background-color: #4B24F5;
 }
 .headerHighlight {
-    color: #7355F7;
+    color: #1aa684;
 }
 
 @media (max-width: 981px) {

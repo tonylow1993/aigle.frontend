@@ -14,13 +14,8 @@ const Home = () => {
     return (
         <main>
             <Header/>
-            <BuildTools/>
             <About/>
-            <Services/>
-            <BrowserSupport/>
             <HappyClient/>
-            <Pricing/>
-            <Reviews/>
             <Contact/>
             <Footer/>
             {/* <ScrollTop/>   */}

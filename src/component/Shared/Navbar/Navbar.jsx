@@ -28,9 +28,7 @@ const NavBar = () => {
     return (
         <Navbar className={`navbar navbar-expand-lg navbar-light ${isSticky ? "navStyle" : "navDefault"}`} expand="lg">
             <Container>
-                <Navbar.Brand as={Link} to="/" onClick={scrollTop} className="navBrn">
-                    <FontAwesomeIcon icon={faBuffer} className="brnIcon" /> Easy <span className="navHighlight">Consulting</span>
-                </Navbar.Brand>
+                <Navbar.Brand as={Link} to="/" onClick={scrollTop} className="navBrn"/>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -39,16 +37,19 @@ const NavBar = () => {
                             <Nav.Link as={Link} to="/" className="nav-link" onClick={() => window['scrollTo']({ top: 0, behavior: 'smooth' })}>Home</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#services" className="nav-link">Services</Nav.Link>
+                            <Nav.Link href="#about" className="nav-link">About</Nav.Link>
+                        </Nav.Item>
+                        {/*<Nav.Item>
+                            <Nav.Link href="#approach" className="nav-link">Approach</Nav.Link>
+                        </Nav.Item>*/}
+                        <Nav.Item>
+                            <Nav.Link href="#team" className="nav-link">Team</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#testimonial" className="nav-link">Reviews</Nav.Link>
+                            <Nav.Link href="#contact" className="nav-link">Contact</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#contact" className="nav-link">Contact Us</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link as={Link} to="/dashboard/profile" className="nav-link">Dashboard</Nav.Link>
+                            <Nav.Link as={Link} to="/dashboard/profile" className="nav-link">Platform</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                             {

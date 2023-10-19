@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 const About = () => {
     return (
-        <section className="about overflow-hidden py-5">
+        <section id="about" className="about overflow-hidden py-5">
             <div className="row w-100">
                 <div className="row col-md-11 mx-auto ">
                     <div className="col-md-6 img">
