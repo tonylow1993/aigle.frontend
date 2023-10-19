@@ -1,5 +1,4 @@
 import { faMobileAlt, faMapMarkedAlt } from '@fortawesome/free-solid-svg-icons';
-import { faBuffer } from '@fortawesome/free-brands-svg-icons'
 
 export const usefulLink = [
     {name: 'Home', id: 1},
@@ -24,7 +23,7 @@ export const otherLinks = [
 ]
 
 export const footerInfo = [
-    {icon: faBuffer, info1: 'EASY CONSULTING', id: 1},
-    {icon: faMobileAlt, info1: '+13322176301', info2: 'ujjalzaman@gmail.com', id: 2},
-    {icon: faMapMarkedAlt, info1: 'bronx,new york, USA', info2: 'Nevada,USA', id: 3}
+    {icon: null, info1: 'ALGLE.AI', id: 1},
+    {icon: faMobileAlt, info1: '+852 98765432', info2: 'tonylow1993@gmail.com', id: 2},
+    {icon: faMapMarkedAlt, info1: 'Centrl, NT, HK', info2: 'Central ,HK', id: 3}
 ];

@@ -14,10 +14,11 @@ const About = () => {
                     </div>
                     <div className="col-md-6 ps-2">
                         <Fade duration={2000} right>
-                            <p className="miniTitle">about us</p>
-                            <h1 className="headerTitle">HOW WE CAN HELP YOUR <span className="headerHighlight">BUSINESS</span> GOAL</h1>
-                            <p className="headerContent">Choosing a suitable theme for your business isn’t hard if you know what to look for. A solid bundled contact form plugin enables customers to make contact with you, and a means of displaying your business and location information prominently is also essential.</p>
-                            <button className="branBtn">learn More</button>
+                            <h1 className="headerTitle">About Us - <span className="headerHighlight">AIGLE.AI</span></h1>
+                            <p className="headerContent">At Aigle.ai, we believe in the transformative power of technology to redefine the future of healthcare. We stand at the intersection of cutting-edge artificial intelligence and medical imaging, committed to ushering in a new era of diagnostic precision.</p>
+                            <p className="headerContent">Founded by a team of visionary medical professionals and AI experts, Aigle.ai harnesses the vast potential of machine learning to analyze and interpret medical images with unparalleled accuracy. Our state-of-the-art platform delves deeper than the human eye, identifying subtle patterns and anomalies that might otherwise go unnoticed.</p>
+                            <p className="headerContent">But we're not just about algorithms and data. We are driven by a profound desire to make a meaningful difference in the lives of patients worldwide. By assisting doctors in making faster, more informed decisions, we aim to optimize treatment outcomes and enhance patient care.</p>
+                            <p className="headerContent">Join us on this remarkable journey as we reimagine the boundaries of medical diagnostics. With Aigle.ai, the future is clearer, brighter, and healthier.</p>
                         </Fade>
                     </div>
                 </div>

@@ -20,7 +20,8 @@
     margin-bottom: 10px;
     font-size: 60px;
     font-weight: 800;
-    font-family: sans-serif!important;
+    font-family: Maax Mono, Courier New, Courier, monospace!important;
+    margin-bottom: 45px;
 }
 
 .headerContent {
@@ -29,7 +30,7 @@
     color: #5e5e5e;
     font-weight: 300;
     font-family: Maax Mono, Courier New, Courier, monospace;
-    margin: 0.5rem 0 1rem
+    margin: 2rem 0 2rem 0;
 }
 .branBtn {
     background: #1aa684;
@@ -61,6 +62,7 @@
         margin-bottom: 10px;
         font-size: 40px;
         font-weight: 700;
-        font-family: sans-serif!important;
+        font-family: Maax Mono, Courier New, Courier, monospace!important;
+        margin-bottom: 45px;
     }
 }

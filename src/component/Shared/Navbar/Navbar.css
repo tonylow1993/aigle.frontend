@@ -64,6 +64,7 @@
     padding: 0.5rem 1.5rem;
     margin: 0.5rem 1rem;
     transition: 0.4s;
+    font-family: Maax Mono, Courier New, Courier, monospace;
 }
 .loginBtn:hover { 
     background : #4B24F5
